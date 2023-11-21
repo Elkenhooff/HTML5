@@ -438,7 +438,183 @@ footer {
     border: 2px solid #00fc15;
 }
 
+/*Cadastro Usuarios */
+.contact-section {
+    padding: 40px;
+    text-align: center;
+}
 
+.contact-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 5px;
+}
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contact-info {
+    flex: 1;
+    padding: 40px;
+    text-align: left;
+}
+
+.contact-form {
+    flex: 1;
+    padding: 40px;
+}
+
+.contact-info h2 {
+    margin-top: 150px;
+    font-size: 24px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin-bottom: -100px;
+}
+
+.contact-form {
+    margin-top: 70px;
+    width: 500px;
+    line-height: 2em;
+    
+}
+.contact-form p {
+    margin-bottom: -90px;
+    line-height: 25px;
+}
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    height: 120px;
+}
+
+button[type="submit"] {
+    background-color: #007209;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    color: #ccc;
+    background-color: transparent;
+    border:1px solid #000;
+}
+/*Cadastro dos usuários*/
+.body-cadastro {
+    background-color: #ccc;
+}
+.header-cadastro {
+    background-color: #007209;
+}
+.logo2 h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.logo2 img {
+    max-width: 250px;
+    margin-top: 0.5em;
+    margin-left: 1.25em;
+}
+#form-contato {
+	background-color: #fff;
+	padding: 15px;
+	width: 800px;
+    height: 800px;
+	margin-top: 150px;
+    margin-left: 300px;
+    margin-bottom: 100px;
+    
+}
+#form-contato fieldset {
+	border-bottom: 0.5px solid #ccc;
+	margin-bottom: 16px;
+}
+#form-contato fieldset legend {
+	font-size: 100%;
+	font-weight: bold;
+	background-color: #fff;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.input, textarea {
+	padding: 5px;
+	box-shadow: 1px 1px 3px #666;
+	margin-left: 10px;
+}
+select{
+	padding: 5px;
+	box-shadow: 1px 1px 3px #666 ;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+input[type=radio], input[type=checkbox] {
+	box-shadow: 0 0 0 ;
+	margin-right: 20px;
+}
+input[type=text] {
+	width: 450px;
+}
+textarea {
+	margin-top: 10px;
+	width: 450px;
+	height: 100px;
+}
+label {
+	margin-left: 10px;
+}
+
+#info input{
+    margin-bottom: 10px;
+}
+input[type=submit],input[type=reset]{
+	background-color: #007209;
+	color: #000;
+	font-weight: 300;
+	font-size: 90%;
+	padding: 5px 10px;
+	cursor: pointer;
+    margin-left: 10px;
+}
+input[type=submit]:hover, input[type=reset]:hover {
+	background-color: #fff;
+	color: #000;
+	font-weight: bold;
+}
 /* Responsividade Index 4k */
 @media screen and (max-width:2560px)
 {
